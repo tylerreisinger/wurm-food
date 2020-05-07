@@ -1,0 +1,44 @@
+{
+  "categories": {
+    "meat": {
+      "name": "meat",
+      "id": 1
+    },
+    "veggie": {
+      "name": "veggie",
+      "id": 2
+    },
+    "fruit": {
+      "name": "fruit",
+      "id": 3
+    },
+    "herb": {
+      "name": "herb",
+      "id": 4
+    },
+    "cheese": {
+      "name": "cheese",
+      "id": 5
+    },
+    "spice": {
+      "name": "spice",
+      "id": 6
+    },
+    "mushroom": {
+      "name": "mushroom",
+      "id": 7
+    },
+    "fish": {
+      "name": "fish",
+      "id": 8
+    },
+    "misc": {
+      "name": "misc",
+      "id": 9
+    },
+    "nut": {
+      "name": "nut",
+      "id": 10
+    }
+  }
+}

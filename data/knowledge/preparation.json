@@ -1,0 +1,60 @@
+{
+  "preparations": {
+    "whole": {
+      "name": "whole",
+      "value": 0
+    },
+    "fried": {
+      "name": "fried",
+      "value": 1
+    },
+    "roasted": {
+      "name": "roasted",
+      "value": 4
+    },
+    "diced": {
+      "name": "diced",
+      "value": 16
+    },
+    "minced": {
+      "name": "minced",
+      "value": 32
+    },
+    "chopped": {
+      "name": "chopped",
+      "value": 16
+    },
+     "ground": {
+      "name": "ground",
+      "value": 16
+    },
+    "steamed": {
+      "name": "steamed",
+      "value": 5
+    },
+    "mashed": {
+      "name": "mashed",
+      "value": 32
+    },
+     "cooked": {
+      "name": "cooked",
+      "value": 7
+    },
+    "fresh": {
+      "name": "fresh",
+      "value": 128
+    },
+    "sausage meat": {
+      "name": "sausage meat",
+      "value": 132
+    },
+     "sausage veggie": {
+      "name": "sausage veggie",
+      "value": 76
+    },
+    "jam": {
+      "name": "jam",
+      "value": 28
+    }
+  }
+}

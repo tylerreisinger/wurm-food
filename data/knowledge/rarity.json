@@ -1,0 +1,20 @@
+{
+  "rarities": {
+    "normal": {
+      "name": "normal",
+      "value": 0
+    },
+     "rare": {
+      "name": "rare",
+      "value": 1
+    },
+     "supreme": {
+      "name": "supreme",
+      "value": 2
+    },
+     "fantastic": {
+      "name": "fantastic",
+      "value": 3
+    }
+  }
+}

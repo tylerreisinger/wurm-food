@@ -1,0 +1,20 @@
+{
+  "cookers": {
+    "none": {
+      "name": "cooker",
+      "value": 0
+    },
+    "oven": {
+      "name": "oven",
+      "value": 40
+    },
+    "forge": {
+      "name": "forge",
+      "value": 42
+    },
+    "campfire": {
+      "name": "campfire",
+      "value": 37
+    }
+  }
+}

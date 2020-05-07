@@ -1,0 +1,816 @@
+{
+  "ingredients": {
+    "bear": {
+      "name": "bear",
+      "group_id": 92,
+      "id": 72,
+      "comb_id": 16,
+      "category": ["meat"]
+    },
+    "beef": {
+      "name": "beef",
+      "group_id": 92,
+      "id": 73,
+      "comb_id": 17,
+      "category": ["meat"]
+    },
+    "canine": {
+      "name": "canine",
+      "group_id": 92,
+      "id": 74,
+      "comb_id": 18,
+      "category": ["meat"]
+    },
+    "cat": {
+      "name": "cat",
+      "group_id": 92,
+      "id": 75,
+      "comb_id": 19,
+      "category": ["meat"]
+    },
+    "dragon": {
+      "name": "dragon",
+      "group_id": 92,
+      "id": 76,
+      "comb_id": 20,
+      "category": ["meat"]
+    },
+    "fowl": {
+      "name": "fowl",
+      "group_id": 92,
+      "id": 77,
+      "comb_id": 21,
+      "category": ["meat"]
+    },
+    "game": {
+      "name": "game",
+      "group_id": 92,
+      "id": 78,
+      "comb_id": 22,
+      "category": ["meat"]
+    },
+    "horse": {
+      "name": "horse",
+      "group_id": 92,
+      "id": 79,
+      "comb_id": 23,
+      "category": ["meat"]
+    },
+    "human": {
+      "name": "human",
+      "group_id": 92,
+      "id": 80,
+      "comb_id": 24,
+      "category": ["meat"]
+    },
+    "humanoid": {
+      "name": "humanoid",
+      "group_id": 92,
+      "id": 81,
+      "comb_id": 25,
+      "category": ["meat"]
+    },
+    "insect": {
+      "name": "insect",
+      "group_id": 92,
+      "id": 82,
+      "comb_id": 26,
+      "category": ["meat"]
+    },
+    "lamb": {
+      "name": "lamb",
+      "group_id": 92,
+      "id": 83,
+      "comb_id": 27,
+      "category": ["meat"]
+    },
+    "pork": {
+      "name": "pork",
+      "group_id": 92,
+      "id": 84,
+      "comb_id": 28,
+      "category": ["meat"]
+    },
+    "seafood": {
+      "name": "seafood",
+      "group_id": 92,
+      "id": 85,
+      "comb_id": 29,
+      "category": ["meat"]
+    },
+    "snake": {
+      "name": "snake",
+      "group_id": 92,
+      "id": 86,
+      "comb_id": 30,
+      "category": ["meat"]
+    },
+    "tough": {
+      "name": "tough",
+      "group_id": 92,
+      "id": 87,
+      "comb_id": 31,
+      "category": ["meat"]
+    },
+    "green apple": {
+      "name": "green apple",
+      "group_id": 22,
+      "id": 6,
+      "comb_id": 18,
+      "category": ["fruit"]
+    },
+    "barley": {
+      "name": "barley",
+      "group_id": 5,
+      "id": 28,
+      "comb_id": 23,
+      "category": ["grain"]
+    },
+    "wheat": {
+      "name": "wheat",
+      "group_id": 6,
+      "id": 29,
+      "comb_id": 25,
+      "category": ["grain"]
+    },
+    "rye": {
+      "name": "rye",
+      "group_id": 3,
+      "id": 30,
+      "comb_id": 23,
+      "category": ["grain"]
+    },
+    "oat": {
+      "name": "oat",
+      "group_id": 4,
+      "id": 31,
+      "comb_id": 25,
+      "category": ["grain"]
+    },
+    "corn": {
+      "name": "corn",
+      "group_id": 22,
+      "id": 32,
+      "comb_id": 44,
+      "category": ["veggie"]
+    },
+    "pumpkin": {
+      "name": "pumpkin",
+      "group_id": 22,
+      "id": 33,
+      "comb_id": 45,
+      "category": ["veggie"]
+    },
+    "potato": {
+      "name": "potato",
+      "group_id": 22,
+      "id": 35,
+      "comb_id": 47,
+      "category": ["veggie"]
+    },
+    "cheese": {
+      "name": "cheese",
+      "group_id": 28,
+      "id": 66,
+      "comb_id": 84,
+      "category": ["cheese"]
+    },
+    "goat cheese": {
+      "name": "goat cheese",
+      "group_id": 28,
+      "id": 67,
+      "comb_id": 85,
+      "category": ["cheese"]
+    },
+    "feta cheese": {
+      "name": "feta cheese",
+      "group_id": 28,
+      "id": 68,
+      "comb_id": 86,
+      "category": ["cheese"]
+    },
+    "buffalo cheese": {
+      "name": "buffalo cheese",
+      "group_id": 28,
+      "id": 69,
+      "comb_id": 87,
+      "category": ["cheese"]
+    },
+    "honey": {
+      "name": "honey",
+      "group_id": 29,
+      "id": 70,
+      "comb_id": 89,
+      "category": ["misc"]
+    },
+    "hazelnuts": {
+      "name": "hazelnuts",
+      "group_id": 22,
+      "id": 134,
+      "comb_id": 8,
+      "category": ["nut"]
+    },
+    "green mushroom": {
+      "name": "green mushroom",
+      "group_id": 22,
+      "id": 246,
+      "comb_id": 120,
+      "category": ["mushroom"]
+    },
+    "black mushroom": {
+      "name": "black mushroom",
+      "group_id": 22,
+      "id": 247,
+      "comb_id": 121,
+      "category": ["mushroom"]
+    },
+    "brown mushroom": {
+      "name": "brown mushroom",
+      "group_id": 22,
+      "id": 248,
+      "comb_id": 122,
+      "category": ["mushroom"]
+    },
+    "yellow mushroom": {
+      "name": "yellow mushroom",
+      "group_id": 22,
+      "id": 249,
+      "comb_id": 123,
+      "category": ["mushroom"]
+    },
+    "blue mushroom": {
+      "name": "blue mushroom",
+      "group_id": 22,
+      "id": 250,
+      "comb_id": 124,
+      "category": ["mushroom"]
+    },
+    "red mushroom": {
+      "name": "red mushroom",
+      "group_id": 22,
+      "id": 251,
+      "comb_id": 125,
+      "category": ["mushroom"]
+    },
+    "salt": {
+      "name": "salt",
+      "group_id": 36,
+      "id": 349,
+      "comb_id": 99,
+      "category": ["misc"]
+    },
+    "lovage": {
+      "name": "lovage",
+      "group_id": 22,
+      "id": 353,
+      "comb_id": 89,
+      "category": ["herb"]
+    },
+    "sage": {
+      "name": "sage",
+      "group_id": 22,
+      "id": 354,
+      "comb_id": 90,
+      "category": ["herb"]
+    },
+    "onion": {
+      "name": "onion",
+      "group_id": 22,
+      "id": 355,
+      "comb_id": 91,
+      "category": ["veggie"]
+    },
+    "garlic": {
+      "name": "garlic",
+      "group_id": 22,
+      "id": 356,
+      "comb_id": 92,
+      "category": ["herb"]
+    },
+    "oregano": {
+      "name": "oregano",
+      "group_id": 22,
+      "id": 357,
+      "comb_id": 93,
+      "category": ["herb"]
+    },
+    "parsley": {
+      "name": "parsley",
+      "group_id": 22,
+      "id": 358,
+      "comb_id": 94,
+      "category": ["herb"]
+    },
+    "basil": {
+      "name": "basil",
+      "group_id": 22,
+      "id": 359,
+      "comb_id": 95,
+      "category": ["herb"]
+    },
+    "thyme": {
+      "name": "thyme",
+      "group_id": 22,
+      "id": 360,
+      "comb_id": 96,
+      "category": ["herb"]
+    },
+    "belladonna": {
+      "name": "belladonna",
+      "group_id": 22,
+      "id": 361,
+      "comb_id": 97,
+      "category": ["herb"]
+    },
+    "strawberries": {
+      "name": "strawberries",
+      "group_id": 22,
+      "id": 362,
+      "comb_id": 98,
+      "category": ["fruit"]
+    },
+    "rosemary": {
+      "name": "rosemary",
+      "group_id": 22,
+      "id": 363,
+      "comb_id": 99,
+      "category": ["herb"]
+    },
+    "blueberry": {
+      "name": "blueberry",
+      "group_id": 22,
+      "id": 364,
+      "comb_id": 100,
+      "category": ["fruit"]
+    },
+    "nttles": {
+      "name": "nettles",
+      "group_id": 22,
+      "id": 365,
+      "comb_id": 101,
+      "category": ["herb"]
+    },
+    "sassafras": {
+      "name": "sassafras",
+      "group_id": 22,
+      "id": 366,
+      "comb_id": 102,
+      "category": ["herb"]
+    },
+    "lingonberry": {
+      "name": "lingonberry",
+      "group_id": 22,
+      "id": 367,
+      "comb_id": 103,
+      "category": ["fruit"]
+    },
+    "cherries": {
+      "name": "cherries",
+      "group_id": 22,
+      "id": 409,
+      "comb_id": 7,
+      "category": ["fruit"]
+    },
+    "lemon": {
+      "name": "lemon",
+      "group_id": 22,
+      "id": 410,
+      "comb_id": 8,
+      "category": ["fruit"]
+    },
+    "blue grapes": {
+      "name": "blue grapes",
+      "group_id": 22,
+      "id": 411,
+      "comb_id": 9,
+      "category": ["fruit"]
+    },
+    "olives": {
+      "name": "olives",
+      "group_id": 22,
+      "id": 412,
+      "comb_id": 10,
+      "category": ["fruit"]
+    },
+    "green grapes": {
+      "name": "green grapes",
+      "group_id": 22,
+      "id": 414,
+      "comb_id": 12,
+      "category": ["fruit"]
+    },
+    "maple sap": {
+      "name": "maple sap",
+      "group_id": 26,
+      "id": 416,
+      "comb_id": 18,
+      "category": ["misc"]
+    },
+    "egg": {
+      "name": "egg",
+      "group_id": 28,
+      "id": 464,
+      "comb_id": 68,
+      "category": ["misc"]
+    },
+    "rice": {
+      "name": "rice",
+      "group_id": 22,
+      "id": 746,
+      "comb_id": 68,
+      "category": ["grain"]
+    },
+    "walnut": {
+      "name": "walnut",
+      "group_id": 22,
+      "id": 832,
+      "comb_id": 16,
+      "category": ["nut"]
+    },
+    "chestnut": {
+      "name": "chestnut",
+      "group_id": 22,
+      "id": 833,
+      "comb_id": 17,
+      "category": ["nut"]
+    },
+    "mint": {
+      "name": "mint",
+      "group_id": 22,
+      "id": 1130,
+      "comb_id": 38,
+      "category": ["herb"]
+    },
+    "fennel": {
+      "name": "fennel",
+      "group_id": 22,
+      "id": 1131,
+      "comb_id": 39,
+      "category": ["herb"]
+    },
+    "carrot": {
+      "name": "carrot",
+      "group_id": 22,
+      "id": 1133,
+      "comb_id": 41,
+      "category": ["veggie"]
+    },
+    "cabbage": {
+      "name": "cabbage",
+      "group_id": 22,
+      "id": 1134,
+      "comb_id": 42,
+      "category": ["veggie"]
+    },
+    "tomato": {
+      "name": "tomato",
+      "group_id": 22,
+      "id": 1135,
+      "comb_id": 43,
+      "category": ["veggie"]
+    },
+    "lettuce": {
+      "name": "lettuce",
+      "group_id": 22,
+      "id": 1137,
+      "comb_id": 45,
+      "category": ["veggie"]
+    },
+    "pea pod": {
+      "name": "pea pod",
+      "group_id": 22,
+      "id": 1138,
+      "comb_id": 46,
+      "category": ["veggie"]
+    },
+    "sugar": {
+      "name": "sugar",
+      "group_id": 22,
+      "id": 1139,
+      "comb_id": 47,
+      "category": ["misc"]
+    },
+    "cumin": {
+      "name": "cumin",
+      "group_id": 22,
+      "id": 1140,
+      "comb_id": 48,
+      "category": ["spice"]
+    },
+    "ginger": {
+      "name": "ginger",
+      "group_id": 22,
+      "id": 1141,
+      "comb_id": 49,
+      "category": ["spice"]
+    },
+    "nutmeg": {
+      "name": "nutmeg",
+      "group_id": 22,
+      "id": 1142,
+      "comb_id": 50,
+      "category": ["spice"]
+    },
+    "paprika": {
+      "name": "paprika",
+      "group_id": 22,
+      "id": 1143,
+      "comb_id": 51,
+      "category": ["spice"]
+    },
+    "turmeric": {
+      "name": "turmeric",
+      "group_id": 22,
+      "id": 1144,
+      "comb_id": 52,
+      "category": ["spice"]
+    },
+    "pea": {
+      "name": "pea",
+      "group_id": 22,
+      "id": 1150,
+      "comb_id": 58,
+      "category": ["veggie"]
+    },
+    "fennel seed": {
+      "name": "fennel seed",
+      "group_id": 22,
+      "id": 1151,
+      "comb_id": 59,
+      "category": ["spice"]
+    },
+    "cocoa bean": {
+      "name": "cocoa bean",
+      "group_id": 22,
+      "id": 1155,
+      "comb_id": 63,
+      "category": ["misc"]
+    },
+    "pinenut": {
+      "name": "pinenut",
+      "group_id": 22,
+      "id": 1184,
+      "comb_id": 92,
+      "category": ["nut"]
+    },
+    "raspberries": {
+      "name": "raspberries",
+      "group_id": 22,
+      "id": 1196,
+      "comb_id": 104,
+      "category": ["fruit"]
+    },
+    "pineapple": {
+      "name": "pineapple",
+      "group_id": 22,
+      "id": 1235,
+      "comb_id": 5,
+      "category": ["fruit"]
+    },
+    "cucumber": {
+      "name": "cucumber",
+      "group_id": 22,
+      "id": 1247,
+      "comb_id": 17,
+      "category": ["veggie"]
+    },
+    "orange": {
+      "name": "orange",
+      "group_id": 22,
+      "id": 1283,
+      "comb_id": 53,
+      "category": ["fruit"]
+    },
+    "smallmouth bass": {
+      "name": "smallmouth bass",
+      "group_id": 2,
+      "id": 158,
+      "comb_id": 12,
+      "category": ["fish"]
+    },
+    "carp": {
+      "name": "carp",
+      "group_id": 2,
+      "id": 164,
+      "comb_id": 18,
+      "category": ["fish"]
+    },
+    "catfish": {
+      "name": "catfish",
+      "group_id": 2,
+      "id": 160,
+      "comb_id": 14,
+      "category": ["fish"]
+    },
+    "snook": {
+      "name": "snook",
+      "group_id": 2,
+      "id": 161,
+      "comb_id": 15,
+      "category": ["fish"]
+    },
+    "herring": {
+      "name": "herring",
+      "group_id": 2,
+      "id": 159,
+      "comb_id": 13,
+      "category": ["fish"]
+    },
+    "pike": {
+      "name": "pike",
+      "group_id": 2,
+      "id": 157,
+      "comb_id": 11,
+      "category": ["fish"]
+    },
+    "roach": {
+      "name": "roach",
+      "group_id": 2,
+      "id": 162,
+      "comb_id": 16,
+      "category": ["fish"]
+    },
+    "brook trout": {
+      "name": "brook trout",
+      "group_id": 2,
+      "id": 165,
+      "comb_id": 19,
+      "category": ["fish"]
+    },
+    "perch": {
+      "name": "perch",
+      "group_id": 2,
+      "id": 163,
+      "comb_id": 17,
+      "category": ["fish"]
+    },
+    "marlin": {
+      "name": "marlin",
+      "group_id": 2,
+      "id": 569,
+      "comb_id": 9,
+      "category": ["fish"]
+    },
+    "white shark": {
+      "name": "white shark",
+      "group_id": 2,
+      "id": 571,
+      "comb_id": 11,
+      "category": ["fish"]
+    },
+    "octopus": {
+      "name": "octopus",
+      "group_id": 2,
+      "id": 572,
+      "comb_id": 12,
+      "category": ["fish"]
+    },
+    "sailfish": {
+      "name": "sailfish",
+      "group_id": 2,
+      "id": 573,
+      "comb_id": 13,
+      "category": ["fish"]
+    },
+    "dorado": {
+      "name": "dorado",
+      "group_id": 2,
+      "id": 574,
+      "comb_id": 14,
+      "category": ["fish"]
+    },
+    "tuna": {
+      "name": "tuna",
+      "group_id": 2,
+      "id": 575,
+      "comb_id": 15,
+      "category": ["fish"]
+    },
+    "camellia": {
+      "name": "camellia",
+      "group_id": 22,
+      "id": 422,
+      "comb_id": 20,
+      "category": ["herb"]
+    },
+    "oleander": {
+      "name": "oleander",
+      "group_id": 22,
+      "id": 423,
+      "comb_id": 21,
+      "category": ["herb"]
+    },
+    "croutons": {
+      "name": "croutons",
+      "group_id": 22,
+      "id": 1218,
+      "comb_id": 126,
+      "category": ["misc"]
+    },
+    "gravy": {
+      "name": "gravy",
+      "group_id": 26,
+      "id": 1194,
+      "comb_id": 106,
+      "category": ["misc"]
+    },
+    "bacon": {
+      "name": "bacon",
+      "group_id": 2,
+      "id": 1191,
+      "comb_id": 79,
+      "category": ["meat"]
+    },
+    "butter": {
+      "name": "butter",
+      "group_id": 28,
+      "id": 1186,
+      "comb_id": 100,
+      "category": ["misc"]
+    },
+    "crisps": {
+      "name": "crisps",
+      "group_id": 22,
+      "id": 1225,
+      "comb_id": 133,
+      "category": ["misc"]
+    },
+    "toast": {
+      "name": "toast",
+      "group_id": 22,
+      "id": 1228,
+      "comb_id": 136,
+      "category": ["misc"]
+    },
+    "passata": {
+      "name": "passata",
+      "group_id": 22,
+      "id": 1206,
+      "comb_id": 114,
+      "category": [2]
+    },
+    "pesto": {
+      "name": "pesto",
+      "group_id": 22,
+      "id": 1209,
+      "comb_id": 117,
+      "category": ["misc"]
+    },
+    "pesto": {
+      "name": "pesto",
+      "group_id": 22,
+      "id": 1207,
+      "comb_id": 115,
+      "category": ["misc"]
+    },
+    "stock": {
+      "name": "stock",
+      "group_id": 22,
+      "id": 1210,
+      "comb_id": 118,
+      "category": ["misc"]
+    },
+    "white sauce": {
+      "name": "white sauce",
+      "group_id": 22,
+      "id": 1212,
+      "comb_id": 120,
+      "category": ["misc"]
+    },
+    "bread": {
+      "name": "bread",
+      "group_id": 1,
+      "id": 136,
+      "comb_id": 127,
+      "category": ["misc"]
+    },
+    "haggis": {
+      "name": "haggis",
+      "group_id": 22,
+      "id": 1219,
+      "comb_id": 127,
+      "category": ["misc"]
+    },
+    "fried sliced bread": {
+      "name": "fried sliced bread",
+      "group_id": 22,
+      "id": 1171,
+      "comb_id": 79,
+      "category": ["misc"]
+    },
+    "kielbasa": {
+      "name": "kielbasa",
+      "group_id": 22,
+      "id": 1222,
+      "comb_id": 130,
+      "category": ["misc"]
+    },
+    "fries": {
+      "name": "fries",
+      "group_id": 22,
+      "id": 1203,
+      "comb_id": 111,
+      "category": ["misc"]
+    }
+  }
+}

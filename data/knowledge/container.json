@@ -1,0 +1,52 @@
+{
+  "containers": {
+    "none": {
+      "name": "none",
+      "value": 0
+    },
+    "baking stone": {
+      "name": "baking stone",
+      "value": 63
+    },
+     "cake tin": {
+      "name": "cake tin",
+      "value": 62
+    },
+      "frying pan": {
+      "name": "frying pan",
+      "value": 75
+    },
+     "mushroom container": {
+      "name": "mushroom container",
+      "value": 119
+    },
+    "open helm": {
+      "name": "open helm",
+      "value": 11
+    },
+    "pie dish": {
+      "name": "pie dish",
+      "value": 61
+    },
+    "plate": {
+      "name": "plate",
+      "value": 69
+    },
+    "pottery bowl": {
+      "name": "pottery bowl",
+      "value": 77
+    },
+    "roasting dish": {
+      "name": "roasting dish",
+      "value": 65
+    },
+    "sauce pan": {
+      "name": "sauce pan",
+      "value": 74
+    },
+     "sausage skin": {
+      "name": "sausage skin",
+      "value": 132
+    }
+  }
+}

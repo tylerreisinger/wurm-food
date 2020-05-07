@@ -1,0 +1,556 @@
+{
+  "skills": {
+    "Mind": {
+      "name": "Mind",
+      "value": 0
+    },
+    "Body": {
+      "name": "Body",
+      "value": 1
+    },
+    "Soul": {
+      "name": "Soul",
+      "value": 2
+    },
+    "Body Control": {
+      "name": "Body Control",
+      "value": 3
+    },
+    "Body Stamina": {
+      "name": "Body Stamina",
+      "value": 4
+    },
+    "Body Strength": {
+      "name": "Body Strength",
+      "value": 5
+    },
+    "Mind Logic": {
+      "name": "Mind Logic",
+      "value": 6
+    },
+    "Mind Speed": {
+      "name": "Mind Speed",
+      "value": 7
+    },
+    "Soul Depth": {
+      "name": "Soul Depth",
+      "value": 8
+    },
+    "Soul Strength": {
+      "name": "Soul Strength",
+      "value": 9
+    },
+    "Swords": {
+      "name": "Swords",
+      "value": 10
+    },
+    "Axes": {
+      "name": "Axes",
+      "value": 11
+    },
+    "Knives": {
+      "name": "Knives",
+      "value": 12
+    },
+    "Mauls": {
+      "name": "Mauls",
+      "value": 13
+    },
+    "Clubs": {
+      "name": "Clubs",
+      "value": 14
+    },
+    "Hammers": {
+      "name": "Hammers",
+      "value": 15
+    },
+    "Archery": {
+      "name": "Archery",
+      "value": 16
+    },
+    "Polearms": {
+      "name": "Polearms",
+      "value": 17
+    },
+    "Tailoring": {
+      "name": "Tailoring",
+      "value": 18
+    },
+    "Cooking": {
+      "name": "Cooking",
+      "value": 19
+    },
+    "Smithing": {
+      "name": "Smithing",
+      "value": 20
+    },
+    "Weaponsmithing": {
+      "name": "Weaponsmithing",
+      "value": 21
+    },
+    "Armour Smithing": {
+      "name": "Armour Smithing",
+      "value": 22
+    },
+    "Misc Items": {
+      "name": "Misc Items",
+      "value": 23
+    },
+    "Shields": {
+      "name": "Shields",
+      "value": 24
+    },
+    "Alchemy": {
+      "name": "Alchemy",
+      "value": 25
+    },
+    "Nature": {
+      "name": "Nature",
+      "value": 26
+    },
+    "Toys": {
+      "name": "Toys",
+      "value": 27
+    },
+    "Fighting": {
+      "name": "Fighting",
+      "value": 28
+    },
+    "Healing": {
+      "name": "Healing",
+      "value": 29
+    },
+    "Religion": {
+      "name": "Religion",
+      "value": 30
+    },
+    "Thievery": {
+      "name": "Thievery",
+      "value": 31
+    },
+    "War Machines": {
+      "name": "War Machines",
+      "value": 32
+    },
+    "Farming": {
+      "name": "Farming",
+      "value": 33
+    },
+    "Papyrus Making": {
+      "name": "Papyrus Making",
+      "value": 34
+    },
+    "Thatching": {
+      "name": "Thatching",
+      "value": 35
+    },
+    "Gardening": {
+      "name": "Gardening",
+      "value": 36
+    },
+    "Meditating": {
+      "name": "Meditating",
+      "value": 37
+    },
+    "Forestry": {
+      "name": "Forestry",
+      "value": 38
+    },
+    "Rake": {
+      "name": "Rake",
+      "value": 39
+    },
+    "Scythe": {
+      "name": "Scythe",
+      "value": 40
+    },
+    "Sickle": {
+      "name": "Sickle",
+      "value": 41
+    },
+    "Small Axe": {
+      "name": "Small Axe",
+      "value": 42
+    },
+    "Mining": {
+      "name": "Mining",
+      "value": 43
+    },
+    "Digging": {
+      "name": "Digging",
+      "value": 44
+    },
+    "Pickaxe": {
+      "name": "Pickaxe",
+      "value": 45
+    },
+    "Shovel": {
+      "name": "Shovel",
+      "value": 46
+    },
+    "Pottery": {
+      "name": "Pottery",
+      "value": 47
+    },
+    "Ropemaking": {
+      "name": "Ropemaking",
+      "value": 48
+    },
+    "Woodcutting": {
+      "name": "Woodcutting",
+      "value": 49
+    },
+    "Hatchet": {
+      "name": "Hatchet",
+      "value": 50
+    },
+    "Leatherworking": {
+      "name": "Leatherworking",
+      "value": 51
+    },
+    "Cloth Tailoring": {
+      "name": "Cloth Tailoring",
+      "value": 52
+    },
+    "Masonry": {
+      "name": "Masonry",
+      "value": 53
+    },
+    "Blades Smithing": {
+      "name": "Blades Smithing",
+      "value": 54
+    },
+    "Weapon Heads Smithing": {
+      "name": "Weapon Heads Smithing",
+      "value": 55
+    },
+    "Chain Armour Smithing": {
+      "name": "Chain Armour Smithing",
+      "value": 56
+    },
+    "Plate Armour Smithing": {
+      "name": "Plate Armour Smithing",
+      "value": 57
+    },
+    "Shield Smithing": {
+      "name": "Shield Smithing",
+      "value": 58
+    },
+    "Blacksmithing": {
+      "name": "Blacksmithing",
+      "value": 59
+    },
+    "Dairy Food Making": {
+      "name": "Dairy Food Making",
+      "value": 60
+    },
+    "Hot Food Cooking": {
+      "name": "Hot Food Cooking",
+      "value": 61
+    },
+    "Baking": {
+      "name": "Baking",
+      "value": 62
+    },
+    "Beverages": {
+      "name": "Beverages",
+      "value": 63
+    },
+    "Longsword": {
+      "name": "Longsword",
+      "value": 64
+    },
+    "Large Maul": {
+      "name": "Large Maul",
+      "value": 65
+    },
+    "Medium Maul": {
+      "name": "Medium Maul",
+      "value": 66
+    },
+    "Small Maul": {
+      "name": "Small Maul",
+      "value": 67
+    },
+    "Warhammer": {
+      "name": "Warhammer",
+      "value": 68
+    },
+    "Long Spear": {
+      "name": "Long Spear",
+      "value": 69
+    },
+    "Halberd": {
+      "name": "Halberd",
+      "value": 70
+    },
+    "Staff": {
+      "name": "Staff",
+      "value": 71
+    },
+    "Carving Knife": {
+      "name": "Carving Knife",
+      "value": 72
+    },
+    "Butchering Knife": {
+      "name": "Butchering Knife",
+      "value": 73
+    },
+    "Stone Chisel": {
+      "name": "Stone Chisel",
+      "value": 74
+    },
+    "Huge Club": {
+      "name": "Huge Club",
+      "value": 75
+    },
+    "Saw": {
+      "name": "Saw",
+      "value": 76
+    },
+    "Butchering": {
+      "name": "Butchering",
+      "value": 77
+    },
+    "Carpentry": {
+      "name": "Carpentry",
+      "value": 78
+    },
+    "Firemaking": {
+      "name": "Firemaking",
+      "value": 79
+    },
+    "Tracking": {
+      "name": "Tracking",
+      "value": 80
+    },
+    "Small Wooden Shield": {
+      "name": "Small Wooden Shield",
+      "value": 81
+    },
+    "Medium Wooden Shield": {
+      "name": "Medium Wooden Shield",
+      "value": 82
+    },
+    "Large Wooden Shield": {
+      "name": "Large Wooden Shield",
+      "value": 83
+    },
+    "Small Metal Shield": {
+      "name": "Small Metal Shield",
+      "value": 84
+    },
+    "Large Metal Shield": {
+      "name": "Large Metal Shield",
+      "value": 85
+    },
+    "Medium Metal Shield": {
+      "name": "Medium Metal Shield",
+      "value": 86
+    },
+    "Large Axe": {
+      "name": "Large Axe",
+      "value": 87
+    },
+    "Huge Axe": {
+      "name": "Huge Axe",
+      "value": 88
+    },
+    "Shortsword": {
+      "name": "Shortsword",
+      "value": 89
+    },
+    "Two Handed Sword": {
+      "name": "Two Handed Sword",
+      "value": 90
+    },
+    "Hammer": {
+      "name": "Hammer",
+      "value": 91
+    },
+    "Paving": {
+      "name": "Paving",
+      "value": 92
+    },
+    "Prospecting": {
+      "name": "Prospecting",
+      "value": 93
+    },
+    "Fishing": {
+      "name": "Fishing",
+      "value": 94
+    },
+    "Locksmithing": {
+      "name": "Locksmithing",
+      "value": 95
+    },
+    "Repairing": {
+      "name": "Repairing",
+      "value": 96
+    },
+    "Repairing": {
+      "name": "Repairing",
+      "value": 96
+    },
+    "Coal-Making": {
+      "name": "Coal-Making",
+      "value": 97
+    },
+    "Metallurgy": {
+      "name": "Metallurgy",
+      "value": 99
+    },
+    "Natural Substances": {
+      "name": "Natural Substances",
+      "value": 100
+    },
+    "Jewelry Smithing": {
+      "name": "Jewelry Smithing",
+      "value": 101
+    },
+    "Fine Carpentry": {
+      "name": "Fine Carpentry",
+      "value": 102
+    },
+    "Bowyery": {
+      "name": "Bowyery",
+      "value": 103
+    },
+    "Fletching": {
+      "name": "Fletching",
+      "value": 104
+    },
+    "Yoyo": {
+      "name": "Yoyo",
+      "value": 105
+    },
+    "Puppeteering": {
+      "name": "Puppeteering",
+      "value": 106
+    },
+    "Toymaking": {
+      "name": "Toymaking",
+      "value": 107
+    },
+    "Weaponless Fighting": {
+      "name": "Weaponless Fighting",
+      "value": 108
+    },
+    "Aggressive Fighting": {
+      "name": "Aggressive Fighting",
+      "value": 109
+    },
+    "Defensive Fighting": {
+      "name": "Defensive Fighting",
+      "value": 110
+    },
+    "Normal Fighting": {
+      "name": "Normal Fighting",
+      "value": 111
+    },
+    "First Aid": {
+      "name": "First Aid",
+      "value": 112
+    },
+    "Taunting": {
+      "name": "Taunting",
+      "value": 113
+    },
+    "Shield Bashing": {
+      "name": "Shield Bashing",
+      "value": 114
+    },
+    "Milking": {
+      "name": "Milking",
+      "value": 115
+    },
+    "Preaching": {
+      "name": "Preaching",
+      "value": 116
+    },
+    "Prayer": {
+      "name": "Prayer",
+      "value": 117
+    },
+    "Channeling": {
+      "name": "Channeling",
+      "value": 118
+    },
+    "Exorcism": {
+      "name": "Exorcism",
+      "value": 119
+    },
+    "Artifacts": {
+      "name": "Artifacts",
+      "value": 120
+    },
+    "Foraging": {
+      "name": "Foraging",
+      "value": 121
+    },
+    "Botanizing": {
+      "name": "Botanizing",
+      "value": 122
+    },
+    "Climbing": {
+      "name": "Climbing",
+      "value": 123
+    },
+    "Stone Cutting": {
+      "name": "Stone Cutting",
+      "value": 124
+    },
+    "Lock Picking": {
+      "name": "Lock Picking",
+      "value": 125
+    },
+    "Stealing": {
+      "name": "Stealing",
+      "value": 126
+    },
+    "Traps": {
+      "name": "Traps",
+      "value": 127
+    },
+    "Catapults": {
+      "name": "Catapults",
+      "value": 128
+    },
+    "Animal Taming": {
+      "name": "Animal Taming",
+      "value": 129
+    },
+    "Animal Husbandry": {
+      "name": "Animal Husbandry",
+      "value": 130
+    },
+    "Short Bow": {
+      "name": "Short Bow",
+      "value": 131
+    },
+    "Long Bow": {
+      "name": "Long Bow",
+      "value": 132
+    },
+    "Medium Bow": {
+      "name": "Medium Bow",
+      "value": 133
+    },
+    "Ship Building": {
+      "name": "Ship Building",
+      "value": 134
+    },
+    "Ballistae": {
+      "name": "Ballistae",
+      "value": 135
+    },
+    "Trebuchets": {
+      "name": "Trebuchets",
+      "value": 136
+    },
+    "Turrets": {
+      "name": "Turrets",
+      "value": 137
+    }
+  }
+}

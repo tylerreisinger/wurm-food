@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "meal": {
+      "name": "meal",
+      "steps": {
+        "required": [],
+        "one_or_more": [],
+        "optional": []
+      },
+      "cooker": ["oven"],
+      "container": ["frying pan"]
+    }
+  }
+}
