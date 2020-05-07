@@ -13,10 +13,6 @@ class Selector(ABC):
     def select(self, kb: KnowledgeBase) -> List[RecipeIngredient]:
         raise NotImplementedError()
 
-    @abstractmethod
-    def name(self) -> str:
-        raise NotImplementedError()
-
 
 class ExactIngredientSelector(Selector):
     """
@@ -42,9 +38,6 @@ class ExactIngredientSelector(Selector):
             values.extend([ingredient.clone() for ingredient in self._ingredients])
         return values
 
-    def name(self) -> str:
-        return 'ingredient'
-
 
 class IngredientCategorySelector(Selector):
     def __init__(self, category: str):
@@ -58,20 +51,29 @@ class IngredientCategorySelector(Selector):
 
         return selected
 
-    def name(self) -> str:
-        return 'category'
+
+class CombineSelector(Selector):
+    def __init__(self, selectors: List[Selector]):
+        self._selectors = selectors
+
+    def select(self, kb: KnowledgeBase) -> List[RecipeIngredient]:
+        ingredients = []
+        for selector in self._selectors:
+            ingredients.extend(selector.select(kb))
+        return ingredients
 
 
 class SelectorRegistry(object):
     def __init__(self):
         self._selectors = {}
+        self._selector_to_name = {}
 
-    def register_selector(self, selector: Selector):
-        name = selector.name()
+    def register_selector(self, name: str, selector: Selector):
         if name in self._selectors:
             raise KeyError("{} is already registered as a selector".format(name))
 
         self._selectors[name] = selector
+        self._selector_to_name[selector] = name
 
     def get(self, name: str) -> Selector:
         if name not in self._selectors:
@@ -80,5 +82,6 @@ class SelectorRegistry(object):
 
 
 SELECTOR_REGISTRY = SelectorRegistry()
-SELECTOR_REGISTRY.register_selector(ExactIngredientSelector)
-SELECTOR_REGISTRY.register_selector(IngredientCategorySelector)
+SELECTOR_REGISTRY.register_selector('ingredient', ExactIngredientSelector)
+SELECTOR_REGISTRY.register_selector('category', IngredientCategorySelector)
+SELECTOR_REGISTRY.register_selector('combine', CombineSelector)

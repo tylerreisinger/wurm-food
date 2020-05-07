@@ -1,14 +1,11 @@
+from test.recipe.test_base import TestBase
 from wurm_food.knowledge import KnowledgeBase
 from wurm_food.recipe.ingredient import RecipeIngredient
 from wurm_food.recipe.selector.filter import UniformSampleFilter, PrepareIngredientFilter
 from wurm_food.recipe.selector.selector import ExactIngredientSelector, IngredientCategorySelector
 
 
-class TestFilter(object):
-    @classmethod
-    def setup_class(cls):
-        cls._kb = KnowledgeBase.load_from_json('../data/knowledge')
-
+class TestFilter(TestBase):
     def test_uniform_sample_filter(self):
         SELECTORS = [
             UniformSampleFilter(

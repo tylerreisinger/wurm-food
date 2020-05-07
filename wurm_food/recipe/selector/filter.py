@@ -8,25 +8,19 @@ from wurm_food.recipe.selector.selector import Selector
 
 
 class Filter(Selector, ABC):
-    def __init__(self, children: Union[Selector, List[Selector]]):
-        if isinstance(children, list):
-            self._children = children
-        else:
-            self._children = [children]
+    def __init__(self, child: Selector):
+        self._child = child
 
-    def children(self) -> List[Selector]:
-        return self._children
+    def child(self) -> List[Selector]:
+        return self._child
 
     def get_child_ingredients(self, kb: KnowledgeBase) -> List[RecipeIngredient]:
-        ingredients = []
-        for child in self._children:
-            ingredients.extend(child.select(kb))
-        return ingredients
+        return [ingred for ingred in self._child.select(kb)]
 
 
 class UniformSampleFilter(Filter):
-    def __init__(self, children: Union[Selector, List[Selector]], num_samples: int = 1, allow_duplicates: bool = False):
-        super().__init__(children)
+    def __init__(self, child: Selector, num_samples: int = 1, allow_duplicates: bool = False):
+        super().__init__(child)
         self._num_samples = num_samples
         self._allow_duplicates = allow_duplicates
 
@@ -41,13 +35,10 @@ class UniformSampleFilter(Filter):
 
         return out_ingredients
 
-    def name(self) -> str:
-        return 'uniform sample'
-
 
 class DedupFilter(Filter):
-    def __init__(self, children: Union[Selector, List[Selector]]):
-        super().__init__(children)
+    def __init__(self, child: Selector):
+        super().__init__(child)
 
     def select(self, kb: KnowledgeBase) -> List[RecipeIngredient]:
         unique_ingredients = set({})
@@ -58,13 +49,10 @@ class DedupFilter(Filter):
 
         return list(unique_ingredients)
 
-    def name(self) -> str:
-        return 'dedup'
-
 
 class PrepareIngredientFilter(Filter):
-    def __init__(self, children: Union[Selector, List[Selector]], preparation_methods: Union[PreparationMethod, List[PreparationMethod]]):
-        super().__init__(children)
+    def __init__(self, child: Selector, preparation_methods: Union[PreparationMethod, List[PreparationMethod]]):
+        super().__init__(child)
         if isinstance(preparation_methods, list):
             self._preparation_methods = preparation_methods
         else:
@@ -85,22 +73,18 @@ class PrepareIngredientFilter(Filter):
 
         return out_ingredients
 
-    def name(self) -> str:
-        return 'prepare'
-
 
 class FilterRegistry(object):
     def __init__(self):
         self._filters = {}
 
-    def register_filter(self, filter: Filter):
-        name = filter.name()
+    def register_filter(self, name: str, filter: Filter):
         if name in self._filters:
             raise KeyError("{} is already registered as a filter".format(name))
 
         self._filters[name] = filter
 
 FILTER_REGISTRY = FilterRegistry()
-FILTER_REGISTRY.register_filter(UniformSampleFilter)
-FILTER_REGISTRY.register_filter(PrepareIngredientFilter)
-FILTER_REGISTRY.register_filter(DedupFilter)
+FILTER_REGISTRY.register_filter('uniform_sample', UniformSampleFilter)
+FILTER_REGISTRY.register_filter('prepare', PrepareIngredientFilter)
+FILTER_REGISTRY.register_filter('dedup', DedupFilter)

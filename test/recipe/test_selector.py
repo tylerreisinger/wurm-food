@@ -1,13 +1,10 @@
+from test.recipe.test_base import TestBase
 from wurm_food.knowledge import KnowledgeBase
 from wurm_food.recipe.ingredient import RecipeIngredient
 from wurm_food.recipe.selector.selector import ExactIngredientSelector, IngredientCategorySelector
 
 
-class TestSelector(object):
-    @classmethod
-    def setup_class(self):
-        self._kb = KnowledgeBase.load_from_json('../data/knowledge')
-
+class TestSelector(TestBase):
     def test_exact_ingredient_selector(self):
         selector = ExactIngredientSelector(RecipeIngredient.from_name_string('feta cheese', self._kb), repetitions=2)
 
