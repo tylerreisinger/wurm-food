@@ -22,20 +22,15 @@ class ExactIngredientSelector(Selector):
 
     ## Example
 
-    `ExactIngredientSelector(RecipeIngredient.from_name_string("feta cheese", kb), repetitions=2)`
-    will always select 2 feta cheese ingredients.
+    `ExactIngredientSelector(RecipeIngredient.from_name_string("feta cheese", kb))`
+    will always select feta cheese.
     """
-    def __init__(self, ingredients: Union[RecipeIngredient, List[RecipeIngredient]], repetitions=1):
-        if isinstance(ingredients, list):
-            self._ingredients = ingredients
-        else:
-            self._ingredients = [ingredients]
-        self._repetitions = repetitions
+    def __init__(self, *args: List[RecipeIngredient]):
+        self._ingredients = args
 
     def select(self, kb: KnowledgeBase) -> List[RecipeIngredient]:
         values = []
-        for i in range(0, self._repetitions):
-            values.extend([ingredient.clone() for ingredient in self._ingredients])
+        values.extend([ingredient.clone() for ingredient in self._ingredients])
         return values
 
 
@@ -63,25 +58,3 @@ class CombineSelector(Selector):
         return ingredients
 
 
-class SelectorRegistry(object):
-    def __init__(self):
-        self._selectors = {}
-        self._selector_to_name = {}
-
-    def register_selector(self, name: str, selector: Selector):
-        if name in self._selectors:
-            raise KeyError("{} is already registered as a selector".format(name))
-
-        self._selectors[name] = selector
-        self._selector_to_name[selector] = name
-
-    def get(self, name: str) -> Selector:
-        if name not in self._selectors:
-            raise KeyError('{} is not a valid selector'.format(name))
-        return self._selectors[name]
-
-
-SELECTOR_REGISTRY = SelectorRegistry()
-SELECTOR_REGISTRY.register_selector('ingredient', ExactIngredientSelector)
-SELECTOR_REGISTRY.register_selector('category', IngredientCategorySelector)
-SELECTOR_REGISTRY.register_selector('combine', CombineSelector)
