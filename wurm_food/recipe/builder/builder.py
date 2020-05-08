@@ -2,8 +2,8 @@ from typing import List
 
 from wurm_food.knowledge import Cooker, Container, KnowledgeBase
 from wurm_food.recipe.recipe import Recipe
-from wurm_food.recipe.selector.filter import FILTER_REGISTRY
-from wurm_food.recipe.selector.selector import Selector, SELECTOR_REGISTRY
+from wurm_food.recipe.selector import SELECTOR_REGISTRY, FILTER_REGISTRY
+from wurm_food.recipe.selector.selector import Selector
 
 
 class SelectorBuilder(object):
@@ -40,8 +40,10 @@ class RecipeBuilder(object):
         )
 
     def select(self, name: str, *args, **kwargs) -> SelectorBuilder:
-        selector_cls = SELECTOR_REGISTRY.get(name)
-        selector = selector_cls(*args, **kwargs)
+        entry = SELECTOR_REGISTRY.get(name)
+        if entry.args:
+            args, kwargs = entry.args.parse_args(self._kb, *args, **kwargs)
+        selector = entry.cls(*args, **kwargs)
         builder = SelectorBuilder(selector)
         self._selectors.append(builder)
 

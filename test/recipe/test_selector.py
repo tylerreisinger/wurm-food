@@ -6,10 +6,9 @@ from wurm_food.recipe.selector.selector import ExactIngredientSelector, Ingredie
 
 class TestSelector(TestBase):
     def test_exact_ingredient_selector(self):
-        selector = ExactIngredientSelector(RecipeIngredient.from_name_string('feta cheese', self._kb), repetitions=2)
+        selector = ExactIngredientSelector(RecipeIngredient.from_name_string('feta cheese', self._kb))
 
         expected_results = [
-            RecipeIngredient.from_name_string('feta cheese', self._kb),
             RecipeIngredient.from_name_string('feta cheese', self._kb),
         ]
 

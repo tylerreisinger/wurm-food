@@ -72,19 +72,3 @@ class PrepareIngredientFilter(Filter):
             out_ingredients.append(new_ingredient)
 
         return out_ingredients
-
-
-class FilterRegistry(object):
-    def __init__(self):
-        self._filters = {}
-
-    def register_filter(self, name: str, filter: Filter):
-        if name in self._filters:
-            raise KeyError("{} is already registered as a filter".format(name))
-
-        self._filters[name] = filter
-
-FILTER_REGISTRY = FilterRegistry()
-FILTER_REGISTRY.register_filter('uniform_sample', UniformSampleFilter)
-FILTER_REGISTRY.register_filter('prepare', PrepareIngredientFilter)
-FILTER_REGISTRY.register_filter('dedup', DedupFilter)
